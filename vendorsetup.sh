@@ -5,8 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_LUNCH_CHOICES := \
-    omni_emerald-user \
-    omni_emerald-userdebug \
-    omni_emerald-eng
-
+export COMMON_LUNCH_CHOICES="omni_emerald-user omni_emerald-userdebug omni_emerald-eng"
