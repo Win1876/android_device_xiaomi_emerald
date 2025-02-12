@@ -5,6 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_emerald-user
-add_lunch_combo omni_emerald-userdebug
-add_lunch_combo omni_emerald-eng
+COMMON_LUNCH_CHOICES := \
+    omni_emerald-user \
+    omni_emerald-userdebug \
+    omni_emerald-eng
+
