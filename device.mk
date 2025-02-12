@@ -43,8 +43,5 @@ PRODUCT_PACKAGES += \
     recovery_ramdisk \
     fstab.mt6789
 
-# Include OmniROM's Configuration File
-$(call inherit-product, vendor/omni/config/common.mk)
-
 # Include Device-Specific Makefile
 $(call inherit-product, device/xiaomi/emerald/omni_emerald.mk)
