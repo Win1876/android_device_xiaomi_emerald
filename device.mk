@@ -44,4 +44,4 @@ PRODUCT_PACKAGES += \
     fstab.mt6789
 
 # Include Device-Specific Makefile
-$(call inherit-product, device/xiaomi/emerald/omni_emerald.mk)
+# $(call inherit-product, device/xiaomi/emerald/omni_emerald.mk)
